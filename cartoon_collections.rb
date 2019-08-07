@@ -15,7 +15,9 @@ end
 def long_planeteer_calls (array)# code an argument here
   if array.all? {|array| array.size == [1..4]}
     return false
-  else, return true
+  else
+    return true
+  end
 end
 
 def find_the_cheese# code an argument here
