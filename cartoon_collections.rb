@@ -1,4 +1,4 @@
-require "pry"
+#require "pry"
 
 def roll_call_dwarves (array)# code an argument here
   i = 0
