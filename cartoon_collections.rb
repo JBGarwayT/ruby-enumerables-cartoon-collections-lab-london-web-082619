@@ -20,7 +20,7 @@ def long_planeteer_calls (array)# code an argument here
   end
 end
 
-def find_the_cheese (array)# code an argument here
+def find_the_cheese (array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.any? {|array, cheese_types| array == cheese_types}
   end
