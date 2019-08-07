@@ -24,6 +24,8 @@ end
 
 def find_the_cheese (array)
   binding.pry
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  
+cheese_types = ["cheddar", "gouda", "camembert"]
+
   array.any? {|array, cheese_types| array == cheese_types}
   end
