@@ -22,5 +22,5 @@ end
 
 def find_the_cheese (array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.any? {|array, cheese_types| array == cheese_types}
-  end
+  cheese_types.each {|array, cheese_types| cheese_types.any? {|cheese_types| cheese_types == array}}
+end
