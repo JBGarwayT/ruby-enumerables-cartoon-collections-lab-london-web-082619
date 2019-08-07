@@ -24,6 +24,7 @@ end
 
 def find_the_cheese (array)
     cheese_types = ["cheddar", "gouda", "camembert"]
-binding.pry
-  array.any? {|array, cheese_types| array == cheese_types}
+  cheese_types.each do |type|
+    return type if array.include? (type) 
+  end
   end
