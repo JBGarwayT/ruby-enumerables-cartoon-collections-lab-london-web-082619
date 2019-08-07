@@ -16,12 +16,12 @@ def long_planeteer_calls (array)# code an argument here
   i = 0
   while i < array.length do
     array[i] == 4
-    if array[i] == 4 
+
+    i += 1    if array[i] == 4 
       return true
     else 
       return false
     end
-    i += 1
   end
 end
 
