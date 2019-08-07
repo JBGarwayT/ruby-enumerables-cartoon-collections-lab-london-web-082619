@@ -13,16 +13,12 @@ def summon_captain_planet (array)# code an argument here
 end
 
 def long_planeteer_calls (array)# code an argument here
-  i = 0
-  while i < array.length do
-    array[i] == 4
-    i += 1   
-  if array[i] == 4 
+  array.each do |array|
+    if array == 4
       return true
-    else 
+    else
       return false
     end
-  end
 end
 
 def find_the_cheese# code an argument here
