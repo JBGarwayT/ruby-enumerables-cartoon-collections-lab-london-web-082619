@@ -1,13 +1,28 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves (array)# code an argument here
+  i = 0
+  while i < array.length do
+   puts "#{i + 1}. #{array}"
+   i += 1
+ end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet (array)# code an argument here
+  capitalised = []
+  array.each {|array| capitalised << "#{array.capitalize}!"}
+  capitalised
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls (array)# code an argument here
+  i = 0
+  while i < array.length do
+    array[i] == 4
+        if array[i] > 4 
+      return true
+    else 
+      return false
+    end
+    i += 1
+  end
 end
 
 def find_the_cheese# code an argument here
